@@ -1,3 +1,5 @@
+A react web app to help students with remembering information with the use of custom flashcards
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
