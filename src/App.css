@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.body {
+  background-color: #e8f4f8;
+  height: 100vh;
+}
+
+/* Start of Nav */
+.nav_container {
+  /* position: fixed; */
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  background-color: #add8e6;
+  border-bottom: 1px solid white;
+  letter-spacing: 2px;
+}
+
+.nav_container ul {
+  width: 80%;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_ul li {
+  color: white;
+  display: block;
+  padding: 0.7em 0.7em;
+  transition: 300ms;
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+.nav_ul li:hover {
+  color: #9999ff;
+}
+
+.logo {
+  color: white;
+  font-size: 2.3em;
+  padding: 0.3em;
+}
+
+@media (max-width: 600px) {
+  .nav_ul ul {
+    display: block;
+  }
+  .nav_ul li {
+    text-align: center;
+  }
+}
+
+/* End of Nav */
+
+/* Start of New Flash Card */
+.new_container {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 3px;
+}
+
+
+/* End of New Flash Card */
